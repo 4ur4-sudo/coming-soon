@@ -21,21 +21,34 @@
             font-weight: normal;
             font-style: normal;
             color: #D1D4C0;
+            margin: 2px;
         }
 
         #c {
             display: flex;
+            flex-flow: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin:0;
             padding:0;
         }
+
+        #sub {
+            font-size: 22px;
+            letter-spacing: 3px;
+        }
+
+        #emoji {
+            margin:25px
+        }
     </style>
 </head>
 <body>
     <div id="c">
-    <h1>coming soon 🤫</h1>
+        <h1>coming soon</h1>
+        <h1 id="sub">to a school near you</h1>
+        <h1 id="emoji">🤫</h1>
     </div>
 </body>
 </html>
